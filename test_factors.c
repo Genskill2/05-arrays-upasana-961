@@ -21,17 +21,3 @@ int main(void) {
   assert (ret[1] == 13);
   printf("Factors: passed\n");
 }
-int factors(int n, int a[]) {
-  int i, j = 0;
-  int x = n;
-  for(i = 2; i<=n; i++) {
-    if (n%i==0) {
-      a[j] = i;
-      printf("%d %d %d", j, n, a[j]);
-      n = n/i;
-      i = 1;
-      j++;
-    }
-  }
-  return j;
-}
