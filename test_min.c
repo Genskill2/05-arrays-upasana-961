@@ -12,11 +12,4 @@ int main(void) {
   assert (min(y, 1) == 5);
   printf("Min: passed\n");
   }
-int min(int a[], int n) {
-  int i, x = a[0];
-  for(i = 0; i<n; i++) {
-    if(x>a[i])
-      x = a[i];
-  }
-  return x;
-}
+
