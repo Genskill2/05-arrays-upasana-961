@@ -12,3 +12,11 @@ int main(void) {
   assert (average(y, 1) == 5.0);
   printf("Average: passed\n");
   }
+float average(int a[], int n) {
+  int i; float sum = 0;
+  for(i = 0; i<n; i++) {
+    sum+=a[i];
+  }
+  sum = sum/n;
+  return sum;
+}
