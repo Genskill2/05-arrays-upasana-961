@@ -1,5 +1,6 @@
 /* Enter your solutions in this file */
 #include <stdio.h>
+#include <assert.h>
 float average(int [], int);
 
 int main(void) {
@@ -18,6 +19,8 @@ float average(int a[], int n) {
   sum = sum/n;
   return sum;
 }
+#include <stdio.h>
+#include <assert.h>
 int factors(int, int []);
 
 int main(void) {
@@ -51,6 +54,8 @@ int factors(int n, int a[]) {
   }
   return j;
 }
+#include <stdio.h>
+#include <assert.h>
 int max(int [], int);
 
 int main(void) {
@@ -69,6 +74,8 @@ int max(int a[], int n) {
   }
   return x;
 }
+#include <stdio.h>
+#include <assert.h>
 int min(int [], int);
 
 int main(void) {
@@ -87,6 +94,8 @@ int min(int a[], int n) {
   }
   return x;
 }
+#include <stdio.h>
+#include <assert.h>
 int mode(int [], int);
 
 int main(void) {
