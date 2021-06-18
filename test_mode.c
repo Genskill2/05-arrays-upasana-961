@@ -12,20 +12,4 @@ int main(void) {
   assert (mode(y, 1) == 5);
   printf("Mode: passed\n");
   }
-int mode(int a[], int n) {
-  int i, j;
-  int maxcount = 0, maxvalue = 0;
-  for(i=0; i<n, ++i) {
-    int count = 0;
-    for(j = 0; j<n; ++j) {
-      if(a[i] == a[j])
-        ++count;
-    }
-    if(count>maxcount) {
-      maxcount = count;
-      maxvalue = a[i];
-    }
-  }
-    return maxvalue;
-  }
-             
+
