@@ -30,7 +30,7 @@ int factors(int n, int a[]) {
       printf("%d %d %d", j, n, a[j]);
       n = n/i;
       i = 1;
-      j+=;
+      j++;
     }
   }
   return j;
