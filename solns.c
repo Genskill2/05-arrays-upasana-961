@@ -35,7 +35,7 @@ int mode(int a[] , int n){
   int maxcount=0 , maxvalue=0;
   for(i=0 ; i<n; ++i){
     int count = 0;
-    for(j=0; j<n ; ++j){
+    for(j=0; j<n; ++j){
       if(a[i]==a[j])
         ++count ;
     }
