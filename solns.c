@@ -68,3 +68,4 @@ int factors(int n, int a[]){
   }
   return j;  
 }
+
