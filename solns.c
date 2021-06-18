@@ -22,3 +22,19 @@ int factors(int n, int a[]) {
   }
   return j;
 }
+int max(int a[], int n) {
+  int i, x = a[0];
+  for(i = 0; i<n; i++) {
+    if(x<a[i])
+      x = a[i];
+  }
+  return x;
+}
+int min(int a[], int n) {
+  int i, x = a[0];
+  for(i = 0; i<n; i++) {
+    if(x>a[i])
+      x = a[i];
+  }
+  return x;
+}
